@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left">
+            </i>
+            <span id="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo, quos, optio quae soluta molestiae cumque iste minus atque quod hic quas iure similique vero dolorum vel maxime ipsum accusamus.</span>
+        </div>
+
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Cool Guy!</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-quote">New Quote</button>
+        </div>
+
+
+    </div>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/78461f8056.js" crossorigin="anonymous"></script>
+
+    <!-- Get the quotes from an API -->
+    <script src="script.js"></script>
+
+    <!-- Activate the following two scripts if you want to get the quotes from a local file (quotes.js) -->
+    <!-- <script src="quotes.js"></script>
+    <script src="script-local.js"></script> -->
 </body>
 </html>
